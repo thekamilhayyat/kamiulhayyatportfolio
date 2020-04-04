@@ -715,7 +715,7 @@ canvas{
 	overflow: hidden;
 	top: 0;
 	left: 0;
-	padding: 3em;
+	padding: 2em;
 	text-align: left;
 }
 
@@ -751,10 +751,10 @@ canvas{
 
 .hovereffect .overlay:before {
 	position: absolute;
-	top: 20px;
-	right: 20px;
-	bottom: 20px;
-	left: 20px;
+	top: 22px;
+	right: 22px;
+	bottom: 22px;
+	left: 22px;
 	border: 1px solid #fff;
 	content: '';
 	opacity: 0;
@@ -810,7 +810,7 @@ canvas{
   list-style: none;
   padding: 10px 15px;
   border: 1px solid #E91E63;
-  font-weight: bold;
+  font-weight: 500;
   color: #000000;
   border-radius: 3px;
   margin: 0 4px;
@@ -819,6 +819,9 @@ canvas{
   -moz-animation: all .5s ease;
   -o-transition: all .5s ease;
   transition: all .5s ease;
+}
+.portfolio-menu{
+  margin-bottom: 12px;
 }
 
 .portfolio-menu ul li:hover {
@@ -830,7 +833,15 @@ canvas{
   background: #E91E63;
   color: #ffffff;
 }
+.portfolio-items {
+  width: 100%;
+}
 
+.portfolio-items .item {
+  width: 25%;
+  float: left;
+  /* margin: 6px; */
+}
 /* .portfolio-items {
   width: 100%;
 } */
