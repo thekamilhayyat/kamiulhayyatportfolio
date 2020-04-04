@@ -86,6 +86,8 @@ img {
     padding: 60px 0;
 }
 
+
+
 .section-header{
     margin-bottom: 60px;
     text-align: center;
@@ -1037,20 +1039,8 @@ canvas{
     padding: 30px 0;
 }
 
+.section-padding-portfolio{
+  padding: 60px 0 10px 0;
+}
+
 /*--------------- Footer area ends -------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
