@@ -89,7 +89,7 @@ img {
 
 
 .section-header{
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     text-align: center;
 }
 
@@ -636,6 +636,10 @@ canvas{
 
 /*-------------- 9. Portfolio area starts-----------*/
 
+.portfolio-area{
+  margin-bottom: 16px;
+}
+
 
 .por-text-details .col-xs-4 p {
 	font-weight: bold;
@@ -809,10 +813,11 @@ canvas{
 .portfolio-menu ul li {
   display: inline-block;
   margin: 0;
+  text-transform: uppercase;
   list-style: none;
   padding: 10px 15px;
   border: 1px solid #E91E63;
-  font-weight: 500;
+  font-weight: 600 !important;
   color: #000000;
   border-radius: 3px;
   margin: 0 4px;
@@ -844,15 +849,10 @@ canvas{
   float: left;
   /* margin: 6px; */
 }
-/* .portfolio-items {
-  width: 100%;
-} */
 
-/* .portfolio-items .item {
-  width: 330px;
-  float: left;
-  margin: 8px;
-} */
+.margin-b{
+  padding-bottom: 14px;
+}
 
 /*--------------Portfolio area Ends-----------*/
 
