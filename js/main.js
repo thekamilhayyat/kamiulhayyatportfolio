@@ -140,18 +140,4 @@ $(document).ready(function () {
     }
   });
 
-  //***********YTplayer js
-
-  $('.video-bg').mb_YTPlayer({
-    showControls: false,
-    autoPlay: true,
-    loop: true,
-    mute: true,
-    startAt: 0,
-    opacity: 1,
-    quality: 'default'
-  });
-
-  // ***************isotop
-
 });
